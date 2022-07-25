@@ -154,4 +154,3 @@ resource "aws_vpc_endpoint_subnet_association" "sqs_vpce_association" {
   vpc_endpoint_id = aws_vpc_endpoint.sqs_vpce.id
   subnet_id       = aws_subnet.sneakyendpoints_private_subnet.id
 }
-
